@@ -1,0 +1,35 @@
+{ "command": "flight", "id": "flight1", "dropzone": "Picton", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:35", "maxload": 4 }
+{ "command": "flight", "id": "flight2", "dropzone": "Picton", "starttime": "2007-12-02T10:25", "endtime": "2007-12-02T10:40", "maxload": 7 }
+{ "command": "flight", "id": "flight3", "dropzone": "Picton", "starttime": "2007-12-02T10:40", "endtime": "2007-12-02T11:00", "maxload": 5 }
+{ "command": "flight", "id": "flight4", "dropzone": "Picton", "starttime": "2007-12-03T10:15", "endtime": "2007-12-03T10:35", "maxload": 4 }
+{ "command": "flight", "id": "flight5", "dropzone": "Picton", "starttime": "2007-12-03T10:25", "endtime": "2007-12-03T10:40", "maxload": 7 }
+{ "command": "flight", "id": "flight6", "dropzone": "Picton", "starttime": "2007-12-03T10:40", "endtime": "2007-12-03T11:00", "maxload": 5 }
+{ "command": "flight", "id": "flight7", "dropzone": "Moruya", "starttime": "2007-12-04T17:00", "endtime": "2007-12-04T17:10", "maxload": 5 }
+{ "command": "flight", "id": "flight8", "dropzone": "Picton", "starttime": "2007-12-04T16:00", "endtime": "2007-12-04T16:10", "maxload": 5 }
+{ "command": "skydiver", "skydiver": "Matt", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Bruno", "licence": "student"}
+{ "command": "skydiver", "skydiver": "Ted", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Alice in Wonderland", "licence": "tandem-master", "dropzone": "Picton"}
+{ "command": "skydiver", "skydiver": "Ashesh", "licence": "tandem-master", "dropzone": "Picton"}
+{ "command": "skydiver", "skydiver": "Apple Banana Coconut", "licence": "tandem-master", "dropzone": "Picton"}
+{ "command": "skydiver", "skydiver": "Borat", "licence": "instructor", "dropzone": "Picton"}
+{ "command": "request", "type": "tandem", "id": "forgot to arrive in time, in Wonderland, need 5 minute briefing", "starttime": "2007-12-03T10:40", "passenger": "Alice in Wonderland" }
+{ "command": "request", "type": "tandem", "id": "Alice arrived just in time for tandem with Ashesh", "starttime": "2007-12-03T10:35", "passenger": "Alice in Wonderland" }
+{ "command": "request", "type": "training", "id": "Bruno arrives for training, but there are no instructors!", "starttime": "2007-12-04T17:00", "trainee": "Bruno" }
+{ "command": "request", "type": "training", "id": "Bruno arrives for training with Alice in Wonderland", "starttime": "2007-12-04T16:00", "trainee": "Bruno" }
+{ "command": "request", "type": "fun", "id": "Matt, Ashesh and Borat go out to do some sick jumps, but Ashesh unfortunately has tandem booked with Alice, he wont be able to pack in time!", "starttime": "2007-12-03T10:15", "skydivers": ["Matt", "Ashesh", "Borat"] }
+{ "command": "request", "type": "fun", "id": "Matt, Ashesh and Borat go out to do some sick jumps", "starttime": "2007-12-02T10:15", "skydivers": ["Matt", "Ashesh", "Borat"] }
+{ "command": "request", "type": "fun", "id": "Matt can't do the next jump because he is busy repacking his gear. He's very annoyed!", "starttime": "2007-12-02T10:40", "skydivers": ["Matt"] }
+{ "command": "change", "type": "fun", "id": "Matt, Ashesh and Borat go out to do some sick jumps", "starttime": "2007-12-02T10:15", "skydivers": ["Matt", "Ashesh", "Borat", "Ted"] }
+{ "command": "change", "type": "fun", "id": "Matt, Ashesh and Borat go out to do some sick jumps", "starttime": "2007-12-02T10:15", "skydivers": ["Matt", "Ashesh", "Borat", "Ted", "Apple Banana Coconut"] }
+{ "command": "request", "type": "fun", "id": "Matt throws in an extra jump before doing a long night of marking exam papers!", "starttime": "2007-12-04T17:00", "skydivers": ["Matt"] }
+{ "command": "cancel", "id": "Matt throws in an extra jump before doing a long night of marking exam papers!" }
+{ "command": "request", "type": "fun", "id": "Matt changes his mind and wants another jump", "starttime": "2007-12-03T10:40", "skydivers": ["Matt"] }
+{ "command": "jump-run", "id": "flight1" }
+{ "command": "jump-run", "id": "flight2" }
+{ "command": "jump-run", "id": "flight3" }
+{ "command": "jump-run", "id": "flight4" }
+{ "command": "jump-run", "id": "flight5" }
+{ "command": "jump-run", "id": "flight6" }
+{ "command": "jump-run", "id": "flight7" }
+{ "command": "jump-run", "id": "flight8" }

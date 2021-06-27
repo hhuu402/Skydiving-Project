@@ -1,0 +1,62 @@
+{"status": "rejected"}
+{
+  "flight": "flight6",
+  "dropzone": "Picton",
+  "status": "success"
+}
+{"status": "rejected"}
+{
+  "flight": "flight8",
+  "dropzone": "Picton",
+  "status": "success"
+}
+{"status": "rejected"}
+{
+  "flight": "flight1",
+  "dropzone": "Picton",
+  "status": "success"
+}
+{"status": "rejected"}
+{
+  "flight": "flight1",
+  "dropzone": "Picton",
+  "status": "success"
+}
+{
+  "flight": "flight2",
+  "dropzone": "Picton",
+  "status": "success"
+}
+{
+  "flight": "flight7",
+  "dropzone": "Moruya",
+  "status": "success"
+}
+{
+  "flight": "flight6",
+  "dropzone": "Picton",
+  "status": "success"
+}
+[]
+[{"skydivers": [
+  "Apple Banana Coconut",
+  "Ashesh",
+  "Borat",
+  "Matt",
+  "Ted"
+]}]
+[]
+[]
+[]
+[
+  {"skydivers": ["Matt"]},
+  {
+    "passenger": "Alice in Wonderland",
+    "jump-master": "Ashesh"
+  }
+]
+[]
+[{
+  "instructor": "Alice in Wonderland",
+  "trainee": "Bruno"
+}]
